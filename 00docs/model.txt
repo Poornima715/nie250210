@@ -20,3 +20,47 @@ What is HTML5?
 
 what is CSS3?
     style language to make webpage look and feel
+
+
+where react app is developed?
+    server side js -- node.js
+where react app is used?
+    client side(browser)
+        translation of server side js code base into client side code base
+
+
+react is a package or library useed for frontend Application framework , it is node based
+
+client will have UI
+
+
+full stcak
+    (client)(Application/business) [data]
+    ------------------------------------------
+            server 
+
+    react       golang          mongo/cassandra
+    angular     express         oracle 
+    vue         django/flask    sql server
+                java spring     mysql
+                                sqlite
+                                posgress
+
+
+-----------------------------------------------------------
+To create react Application named 'client'
+$ npx create-react-app client 
+or
+$ npm create vite@latest client -- --template react
+
+
+To create react Application under current folder named 'client'
+$ npm create vite@latest 
+---------------------------------------------
+
+index.html 
+    bootstrap css+js
+main.jsx 
+    //index.css
+App.jsx
+    route(navigation) bt PageList,      PageCreate
