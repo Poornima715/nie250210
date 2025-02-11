@@ -1,36 +1,38 @@
+import PageHeader from "../header/PageHeader";
 function FlightCreate() {
     return (
         <>
-            <h3><a href="flight_list.html" className="btn btn-light">Go Back</a>New flight</h3>
-            <div className="container">
-                <div className="form-group mb-3">
-                    <label for="number" className="form-label">Flight number</label>
-                    <input type="text" className="form-control" id="number" placeholder="please enter flight number"/>
+        <PageHeader PageNumber={2}/>
+            <h3><a href="/flights/list" class="btn btn-light">Go Back</a>Flight</h3>
+            <div class="container">
+                <div class="form-group mb-3">
+                    <label for="number" class="form-label">Flight Number</label>
+                    <input type="text" class="form-control" id="number" placeholder="Please enter flight number" />
                 </div>
-                <div className="form-group mb-3">
-                    <label for="airline name" className="form-label">Airline name</label>
-                    <input type="text" className="form-control" id="airline_name" placeholder="please enter airline name"/>
+                <div class="form-group mb-3">
+                    <label for="airline_name" class="form-label">AirLine Name</label>
+                    <input type="text" class="form-control" id="number" placeholder="Please enter airline name" />
                 </div>
-                <div className="form-group mb-3">
-                    <label for="source" className="form-label">Source</label>
-                    <input type="text" className="form-control" id="source_name" placeholder="please enter source"/>
+                <div class="form-group mb-3">
+                    <label for="source" class="form-label">Source</label>
+                    <input type="text" class="form-control" id="number" placeholder="Please enter source" />
                 </div>
-                <div className="form-group mb-3">
-                    <label for="destination " className="form-label">Destination</label>
-                    <input type="text" className="form-control" id="distination_name" placeholder="please enter destination"/>
+                <div class="form-group mb-3">
+                    <label for="destination" class="form-label">Destination</label>
+                    <input type="text" class="form-control" id="number" placeholder="Please enter destination" />
                 </div>
-                <div className="form-group mb-3">
-                    <label for="capacity" className="form-label">Capacity(no of seats)</label>
-                    <input type="text" className="form-control" id="capacity" placeholder="please enter capacity"/>
+                <div class="form-group mb-3">
+                    <label for="capacity" class="form-label">Capacity(Number of Seats)</label>
+                    <input type="text" class="form-control" id="number" placeholder="Please enter number of seat" />
                 </div>
-                <div className="form-group mb-3">
-                    <label for="price" className="form-label">Price</label>
-                    <input type="text" className="form-control" id="price" placeholder="please enter price"/>
+                <div class="form-group mb-3">
+                    <label for="price" class="form-label">Ticket Price</label>
+                    <input type="text" class="form-control" id="number" placeholder="Please enter Ticket Price" />
+                    <button class="btn btn-success">Create Flight</button>
                 </div>
-                <button className="btn btn-success">CreateFlight</button>
             </div>
-        </>
-    );
+            </>
+            );
 }
 
-export default FlightCreate;
+            export default FlightCreate;
