@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 function FullName(){
-    const [person,setperson]=useState({first_name:'Rahul',last_name:'Dravid'})
+    const [person,setperson]=useState({first_name:'Poornima',last_name:'Devangamath'})
     const onChangeFirstName = (event)=> {
         const newPerson = {...person};
         newPerson.first_name = event.target.value;

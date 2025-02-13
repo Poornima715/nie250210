@@ -13,12 +13,12 @@ function App() {//app is a functional component of UI
             <Route path="" element={<FlightList/>}/>
             <Route path="/flights/list" element={<FlightList/>}/>
             <Route path="/flights/create" element={<FlightCreate/>}/>
-            <Route path="/flights/edit/:id" element={<FlightEdit/>}/>
+            <Route path="/flights/edit/:id" element={<FlightEdit/>}/> //id path variable 
           </Routes>
         </BrowserRouter>
       </div>
     
-      <FullName/>
+      {/* <FullName/> */}
     </>
   )
 }
