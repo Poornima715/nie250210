@@ -6,6 +6,7 @@ import(
 	"github.com/gin-gonic/gin"
 	"github.com/gin-contrib/cors"
 )
+var mongoUri string=
 
 type Flight struct{
 	Id string       `json:"id"`
